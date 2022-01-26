@@ -14,7 +14,7 @@ function classificarImc(imc){
     if ( imc < 18.5){
         texto = " Você está abixo do peso";
    }else if (imc < 25){
-        texto = " Você está no peso ideal MONSTROOOOOOO ";
+        texto = " Você está no peso ideal Parabéns ";
    }else if(imc < 30){
        texto = " Você está um pouco acima do peso";
    }else if(imc <35){
