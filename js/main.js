@@ -19,7 +19,6 @@ function classificarImc(imc){
         texto = " Você está abixo do peso";
    }else if (imc < 25){
         texto = " Você está no peso ideal <span class='parabens'>Parabéns!!!</span>";
-        alert("Você é monstro!!!");
    }else if(imc < 30){
        texto = " Você está um pouco acima do peso";
    }else if(imc <35){
@@ -28,7 +27,6 @@ function classificarImc(imc){
        texto = " Você está com obesidade grau 2";
    }else{
        texto = " Você está com obesidade grau 3 <span class='cuidado'>CUIDADO!!!</span>";
-       alert("Você vai morrer!!!");
    }
     return texto;
 }
