@@ -20,11 +20,13 @@
                     </div>
                     <div class="input">
                         <label>Altura:</label>
-                        <input type="number" id="altura" required step="any"/>
+                        <span id="valorAltura">0</span>
+                        <input type="range" id="altura" min="0" max="3" step="0.01"/>
                     </div>
                     <div class="input">
                         <label>Peso:</label>
-                        <input type="number" id="peso" required step="any"/>
+                        <span id="valorPeso">0</span>
+                        <input type="range" id="peso" min="0" max="600" step="0.1"/>
                     </div>
                 </form>
                 <button id="calcular" class="button template">Calcular</button>
